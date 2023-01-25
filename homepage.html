@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hp.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="footer.html">
+
+
+  <script src="https://kit.fontawesome.com/25ba5538d4.js" crossorigin="anonymous"></script>
+  <title>Ikorodu Amusement park</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="head1">
+      <i style="float: right; margin-top: 8px; margin-left: 4px; margin-right: 10px;" class="fa fa-mobile"></i>
+      <p style="float: right; margin: 5px 10px;"> 9:00am - 11:00pm </p>
+      <i style="float: right; margin-top: 8px; margin-left: 4px; margin-right: 10px;" class="fa fa-envelope-o"
+        aria-hidden="true"></i>
+      <p style="float: right; margin: 5px 10px 5px 20px;"> Ikoroduamusement443@gmail.com</p>
+      <i style="float: right; margin-top: 8px; margin-left: 4px; margin-right: 10px;" class="fa fa-mobile"></i>
+      <p style="float: right; margin: 5px 10px 5px 30px;">07062366613</p>
+    </div>
+
+
+
+    <!-- navigation-bar -->
+    <div style="background-color: yellow;" class="full-nav">
+
+      <span>
+        <h2>Ikorodu Amusement Park</h2>
+      </span>
+
+      <ul style="display:flex ;">
+        <li><a href="#">Home</a></li>
+        <div class="dropdown">
+          <li> <a href="">Places To Visit
+              <i class="fa fa-caret-down"></i>
+
+              <div class="dropdown-content">
+                <a href="funRides.html">fun Rides</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="restaurant.html">Restuarant</a>
+              </div>
+            </a> </li>
+        </div>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="onlineTicket.html">OnlineTicket</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li> <a href="login-signUp.html" class="log-in">Log in/ sign up</a> </li>
+      </ul>
+
+    </div>
+
+
+    <div class="content">
+      <div class="images">
+        <img class="sams" src="images/park1.jpg" alt="">
+        <img class="sams" src="images/park2.jpg" alt="">
+        <img class="sams" src="images/park3.jpg" alt="">
+        <img class="sams" src="images/park4.jpg" alt="">
+        <img class="sams" src="images/park5.jpg" alt="">
+      </div>
+
+      <div onclick="side_sliders(-1)" class="slide left" style="font-family: 400;">
+        <span " class="fas fa-angle-left" ></span>
+      </div>
+
+      <div onclick="side_sliders(1)" class="slide right">
+        <span class="fas fa-angle-right"></span>
+      </div>
+
+      <div class="btm-sliders">
+        <span onclick="btm_sliders(1)"></span>
+        <span onclick="btm_sliders(2)"></span>
+        <span onclick="btm_sliders(3)"></span>
+        <span onclick="btm_sliders(4)"></span>
+        <span onclick="btm_sliders(5)"></span>
+      </div>
+    </div>
+
+    <!-- image gallery -->
+    <div class="gallery">
+      <img src="images/pizzA.gif" alt=" width=" 800" height="400">
+
+      <div class="desc">
+        <p> click the button below to view our foods menu</p>
+        <div>
+          <button class="buttons"><a href="restaurant.html">view our foods menu</a></button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="gallery">
+      <img src="images/girll meat.jpg" alt=" width=" 800" height="400">
+
+      <div class="desc">
+        <p>click the button below to view our menu</p>
+        <div>
+          <button class="buttons"><a href="restaurant.html">view our foods menu</a></button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="gallery">
+      <img src="images/icecream.webp" alt=" width=" 800" height="400">
+
+      <div class="desc">
+        <p>click the button below to view our menu</p>
+        <div>
+          <button class="buttons"><a href="restaurant.html">view our foods menu</a></button>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+  <!-- gallery link -->
+  <nav>
+    <div class="container">
+      <div class="imag">
+        <img src="images/water-slide (2).jpg" alt="" width="500px" height="280px">
+      </div>
+      <div class="text">
+        <h1>Attractions.</h1>
+        <p>Global Amusement Park has various features and attractions, such as rides and games, as well as
+          other events like Circus for entertainment purposes. We also serve great hygienic food. And also a Gold Screen
+          Cinema with super hit 5d movies.</p>
+      </div>
+    </div>
+
+    <div>
+      <button class="buttons"><a href="attractions.html">See attractions for you</a></button>
+    </div>
+  </nav>
+
+
+
+
+  <!-- gallery -->
+
+  <div class="gallery">
+    <img src="images/park3.jpg" alt=" width=" 800" height="400">
+
+    <div class="desc">
+      <p>our foods</p>
+      <div>
+        <button class="buttons"><a href="funRides.html">view Details</a></button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="gallery">
+    <img src="images/park1.jpg" alt=" width=" 800" height="400">
+
+    <div class="desc">
+      <p>our foods</p>
+      <div>
+        <button class="buttons"><a href="funRides.html"> view details</a></button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="gallery">
+    <img src="images/park5.jpg" alt=" width=" 800" height="400">
+
+    <div class="desc">
+      <p>our foods</p>
+      <div>
+        <button class="buttons"><a href="funRides.html">view Details</a></button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- gallery link -->
+  <nav>
+
+
+    <div class="container">
+      <div class="imags">
+        <img src="images/img-gallery.jpg" alt="" width="500px" height="280px">
+      </div>
+      <div class="text">
+        <h1>Watch Our Images Of Park In Gallery..</h1>
+        <p>Our gallery is a perfect way to take a look at Our Amusement park. It is the best way to take the decision of
+          coming to Global Amusement Park. I hope it makes easier to make decision for visiting and enjoying Global
+          Amusement Park..</p>
+      </div>
+    </div>
+
+
+
+    <div>
+      <button class="buttons"><a href="gallery.html">watch Gallery</a></button>
+    </div>
+  </nav>
+
+
+
+  <!-- gallery -->
+
+  <div class="gallery">
+    <img src="images/Fast-and-Furious-6.jpg" alt=" width=" 800" height="400">
+
+    <div class="desc">
+
+      <p>click below for more details</p>
+      <div>
+        <button class="buttons"><a href="attractions.html">view details</a></button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="gallery">
+    <img src="images/The Expendables 3.png" alt=" width=" 800" height="400">
+
+    <div class="desc">
+      <p>click below for more details</p>
+      <div>
+        <button class="buttons"><a href="attractions.html">view details</a></button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="gallery">
+    <img src="images/Infinity War.png" alt=" width=" 800" height="400">
+
+    <div class="desc">
+      <p>click below for more details</p>
+      <div>
+        <button class="buttons"><a href="attractions.html">view details</a></button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- gallery link -->
+
+  <nav>
+    <div class="container">
+      <div class="imag">
+        <img src="images/buy online.webp" alt="" width="500px" height="280px">
+      </div>
+      <div class="text">
+        <h1>Avoid Standing In Lines Buy Online..</h1>
+        <p>We give our customers various ways of buying Tickets. As Global Amusement Park has many people coming to
+          enjoy there is a long line of people waiting to buy tickets which consume a lot of time. So we recomend you to
+          buy online tickets with many options of payment and reciving tickets..</p>
+      </div>
+    </div>
+
+
+
+    <div>
+      <button class="buttons"><a href="onlineTicket.html">Get Tickets</a></button>
+    </div>
+  </nav>
+
+
+
+  <footer class="footer">
+
+    <div class="footer-left">
+
+      <h3>Ikorodu<span style="font-size:32px;">Amusement Park</span></h3>
+
+      <p class="footer-name">Ikorodu Amusement Park</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Asolo, bustop, Agric, ikorodu   </span>
+          Lagos, Nigeria </p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+014 364 8585</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto: ikoroduamusementpark@gmail.com">Ikoroduamusementpark@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span><u>Developed By:-</u></span>
+      </p>
+      <ul>
+        <li style="color:white; list-style: none;"> AKINYEMI SAMUEL</li>
+
+      </ul>
+
+
+      <div class="footer-icons">
+
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.github.com"><i class="fa fa-github"></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  </div>
+  </div>
+  </div>
+
+
+</body>
+<script src="hp.js"></script>
+
+</html>
